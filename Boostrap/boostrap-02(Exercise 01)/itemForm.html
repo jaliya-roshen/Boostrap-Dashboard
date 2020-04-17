@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Item Form</title>
+    <link href="css/index-00.css" rel="stylesheet">
+    <link href="assets/boostrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/Dashboard.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a>
+    <input aria-label="Search" class="form-control form-control-dark w-100" placeholder="Search" type="text">
+    <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+            <a class="nav-link" href="#">Sign out</a>
+        </li>
+    </ul>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+            <div class="sidebar-sticky">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Dashboard.html">
+                            <span data-feather="home"></span>
+                            Dashboard <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="itemForm.html">
+                            <span data-feather="file"></span>
+                            Item
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="shopping-cart"></span>
+                            Order
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="users"></span>
+                            Reports
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="customer.html">
+                            <span data-feather="bar-chart-2"></span>
+                            Customer
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="layers"></span>
+                            Users
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="layers"></span>
+                            Settings
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div id="page-wrapper">
+        <div class="container-fluid">
+            <div class="row" id="main">
+                <main class="col-md-9 ml-sm-auto col-lg-10 px-4" role="main">
+
+                    <div class="col-sm-12 col-md-12 well" id="content">
+                        <div class="header_01"><h2>Item Form</h2></div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label>Code</label>
+                            </div>
+                            <div class="col-md-9">
+                                <input class="form-control" type="text">
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="row">
+                            <div class="col-md-3">Name</div>
+                            <div class="col-md-9">
+                                <input aria-describedby="textHelp" class="form-control" type="text">
+                            </div>
+                        </div>
+
+                        <br>
+                        <div class="row">
+                            <div class="col-md-3">Qty:</div>
+                            <div class="col-md-3"><input class="form-control" type="text"></div>
+                            <div class="col-md-1">Price:</div>
+                            <div class="col-md-3"><input class="form-control" type="text"></div>
+
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-11"></div>
+
+                            <div class="col-md-1">
+                                <button class="btn btn-primary" type="save">Save</button>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <br>
+
+                    <div class="container">
+                        <div class="row">
+                            <table class="table table-borderless table-dark">
+                                <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">CID</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Qty</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Status</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">C001</th>
+                                    <td>Monitor</td>
+                                    <td>11</td>
+                                    <td>1300.00</td>
+                                    <td>
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <button class="btn btn-danger" type="button">Remove</button>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <button class="btn btn-success" type="button">Update</button>
+                                            </div>
+                                            <div class="col-md-8">
+
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
